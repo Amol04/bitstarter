@@ -12,7 +12,7 @@ var out="Hello\n";
 
 
 app.get('/', function(request, response) {
-  response.send(out);
+  response.send('The response is '+out);
 });
 
 var port = process.env.PORT || 5000;
